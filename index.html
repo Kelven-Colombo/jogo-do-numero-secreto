@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://code.responsivevoice.org/responsivevoice.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+    <title>JS Game</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="container__conteudo">
+        <div class="container__informacoes">
+          
+          <!-- Tela Config   -->
+          <div id="telaConfig">
+            <div class="container__texto">
+              <h1 id="tituloConfig">Jogo do Número Secreto</h1>
+              <p id="textoConfig" class="texto__paragrafo">Defina o número mínimo e o máximo:</p>
+            </div>
+
+            <div class="container__campo">
+              <label class="texto__paragrafo">Do número</label>
+              <input class="container__input" id="min" type="number" />
+            </div>
+
+            <div class="container__campo">
+              <label class="texto__paragrafo">Até o número</label>
+              <input class="container__input" id="max" type="number" />
+            </div>
+
+            <div class="chute container__botoes">
+              <button class="container__botao" id="btnConfirma">
+                Confirmar
+              </button>
+            </div>
+          </div>
+
+          <!-- Tela Chute -->
+          <div class="hidden" id="telaChute">
+            <div class="container__texto">
+              <h1 id="tituloChute"></h1>
+              <p id="textoChute" class="texto__paragrafo"></p>
+            </div>
+
+            <div class="container__campo">
+              <label id="labelChute" class="texto__paragrafo"></label>
+              <input class="container__input" id="inputChute" type="number" />
+            </div>
+
+            <div class="chute container__botoes">
+              <button class="container__botao" disabled id="btnVerificaChute">
+                Chutar
+              </button>
+              <button class="container__botao" disabled id="btnReiniciarJogo">
+                Novo jogo
+              </button>
+            </div>
+          </div>
+
+        </div>
+        <img
+          src="./img/ia.png"
+          alt="Uma pessoa olhando para a esquerda"
+          class="container__imagem-pessoa"
+        />
+      </div>
+    </div>
+  </body>
+</html>

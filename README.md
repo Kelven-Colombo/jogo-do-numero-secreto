@@ -2,6 +2,9 @@
 
 > **Status:** Projeto refatorado para aplicação de conceitos de arquitetura e UX.
 
+> 🔗 **[Acessar a demo do projeto ▶️](https://kelven-colombo.github.io/jogo-do-numero-secreto/)**
+
+
 ## ℹ️ Sobre
 Originalmente desenvolvido nos cursos de lógica da **Alura**, este projeto foi totalmente reconstruído por mim para transformar um script simples em uma aplicação modular e com foco total na experiência do usuário (UX) incluindo interações via teclado.
 

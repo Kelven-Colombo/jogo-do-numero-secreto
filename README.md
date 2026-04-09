@@ -42,7 +42,7 @@ Nesta revisão, apliquei padrões de **Clean Code** e **UX Design**, separando a
 
 <div align="center">
   <a href="https://github.com/Kelven-Colombo">
-    <img src="https://github.com/Kelven-Colombo.png" alt="Kelven Colombo" width="150" style="border-radius: 50%">
+    <img src="https://github.com/Kelven-Colombo.png" alt="Kelven Colombo" width="150">
   </a>
   <br><br>
   <a href="https://github.com/Kelven-Colombo">
